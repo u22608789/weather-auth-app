@@ -5,7 +5,7 @@ on:
     branches: [ main, feature/*, ci/* ]
   pull_request:
     branches: [ main, feature/*, ci/* ]
-
+ 
 jobs:
   lint-and-check:
     runs-on: ubuntu-latest
